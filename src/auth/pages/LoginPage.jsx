@@ -10,7 +10,7 @@ export const LoginPage = () => {
 
   const onLogin = () => {
 
-    const lastPath = localStorage.getItem('lastPath') || 'heroes-app/'
+    const lastPath = localStorage.getItem('lastPath') || '/'
 
     login('Merlin Cosentino');
 

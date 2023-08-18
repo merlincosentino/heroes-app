@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     const onLogout = () => {
         logout();
-        navigate('heroes-app/login', {
+        navigate('/login', {
             replace: true
         });
     };
@@ -21,7 +21,7 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="heroes-app/"
+                to="/"
             >
                 Asociaciones
             </Link>
@@ -31,21 +31,21 @@ export const Navbar = () => {
 
                     <NavLink 
                         className={({isActive}) => `nav-item nav-link ${ isActive ? 'active' : ''}`} 
-                        to="heroes-app/marvel"
+                        to="/marvel"
                     >
                         Marvel
                     </NavLink>
 
                     <NavLink 
                         className={({isActive}) => `nav-item nav-link ${ isActive ? 'active' : ''}`}
-                        to="heroes-app/dc"
+                        to="/dc"
                     >
                         DC
                     </NavLink>
 
                     <NavLink 
                         className={({isActive}) => `nav-item nav-link ${ isActive ? 'active' : ''}`}
-                        to="heroes-app/search"
+                        to="/search"
                     >
                         Search
                     </NavLink>

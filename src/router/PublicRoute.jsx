@@ -9,5 +9,5 @@ export const PublicRoute = ({children}) => {
 
   return (!logged)
     ? children
-    : <Navigate to="heroes-app/search"/>
+    : <Navigate to="/search"/>
 }

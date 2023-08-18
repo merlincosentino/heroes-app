@@ -13,5 +13,5 @@ export const PrivateRoute = ({children}) => {
 
   return (logged)
     ? children
-    : <Navigate to="heroes-app/login"/>
+    : <Navigate to="/login"/>
 }
