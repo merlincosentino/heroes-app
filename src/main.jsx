@@ -6,7 +6,7 @@ import { HeroesApp } from './HeroesApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='https://merlincosentino.github.io/heroes-app'>
+    <BrowserRouter basename='/heroes-app/'>
       <HeroesApp />
     </BrowserRouter>
   </React.StrictMode>
