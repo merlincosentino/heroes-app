@@ -9,7 +9,7 @@ export const HeroesRoutes = () => {
         <Navbar/>
 
         <div className="container">
-            <Routes basename="https://merlincosentino.github.io/heroes-app">
+            <Routes basename="/heroes-app">
                 <Route path="/marvel" element={<MarvelPage/>}/>
                 <Route path="/dc" element={<DcPage/>}/>
                 <Route path="/search" element={<SearchPage/>}/>

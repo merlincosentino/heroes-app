@@ -7,7 +7,7 @@ import { PublicRoute } from './PublicRoute';
 export const AppRouter = () => {
   return (
     <>
-      <Routes basename="https://merlincosentino.github.io/heroes-app">
+      <Routes basename="/heroes-app">
           {/* <Route path="/*" element={<HeroesRoutes/>}/> */}
           <Route path="/*" element={
             <PrivateRoute>
